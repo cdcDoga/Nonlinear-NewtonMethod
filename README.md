@@ -18,6 +18,7 @@ Ideally, we want to pick a Δx such that xn + Δx is a stationary point of f. Us
 least solve for the Δx corresponding to the root of the expansion's derivative:
 
 {\displaystyle \displaystyle 0={\frac {\rm {d}}{\rm {d\Delta x}}}\left(f(x_{n})+f'(x_{n})\Delta x+{\frac {1}{2}}f''(x_{n})\Delta x^{2}\right)=f'(x_{n})+f''(x_{n})\Delta x}
+
 {\displaystyle \Delta x=-{\frac {f'(x_{n})}{f''(x_{n})}}.} 
 
 Provided the Taylor approximation is fairly accurate, then incrementing by the above Δx should yield a point fairly close to an actual 
